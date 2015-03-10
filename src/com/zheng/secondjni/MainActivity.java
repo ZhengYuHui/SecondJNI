@@ -11,6 +11,7 @@ public class MainActivity extends Activity {
 	private NativeClass nativeClass;
 
 	public void helloFromJava() {
+		// 调用Toast或tv_1.setText，程序异常
 		// Toast.makeText(MainActivity.this, "我来自MainActivity",
 		// Toast.LENGTH_LONG)
 		// .show();
